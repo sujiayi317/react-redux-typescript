@@ -1,4 +1,32 @@
 # A nice practice with react redux and typescript
+`npm i redux react-redux react-thunk @types/react-redux `
+`jiayisu@Jiayis-MacBook-Air react-redux-ts % npm i redux react-redux react-thunk @types/react-redux
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: react-redux-ts@0.1.0
+npm ERR! Found: react@17.0.2
+npm ERR! node_modules/react
+npm ERR!   react@"^17.0.2" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"~0.14.0 || ^15.0.0" from react-thunk@1.0.0
+npm ERR! node_modules/react-thunk
+npm ERR!   react-thunk@"*" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See /Users/jiayisu/.npm/eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jiayisu/.npm/_logs/2021-07-29T21_34_46_297Z-debug.log
+jiayisu@Jiayis-MacBook-Air react-redux-ts % npm i redux react-redux react-thunk @types/react-redux --legacy-peer-deps
+
+added 8 packages, and audited 1722 packages in 2s`
+
+`npm i redux-thunk @types/redux-thunk`
 
 ## Getting Started with Create React App
 
